@@ -15,8 +15,6 @@ on:
       - "feat/**" # feat/new feat/new/button
     paths-ignore:
       - ".github/workflows/*" #  will not be triggered if we change something in workflows
-    paths:
-      - "src/**" # when there is a change in src
 jobs:
   deploy:
     runs-on: ubuntu-latest
